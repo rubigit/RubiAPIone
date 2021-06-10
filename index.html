@@ -10,30 +10,37 @@
 </head>
 
 <body>
+    <!-- Main heading -->
     <div class="love-hding-bg">
         <h1 class="love-heding">Love Calculator</h1>
     </div>
+    <!-- Main container -->
     <div class=container>
-
+        <!-- form to input names -->
         <form id="loveForm" class="loveForm">
             <header class="hderForm">
                 <section class="inp-collection">
+                    <!-- Input for the first name -->
                     <div class="inputFname">
                         <label for="fname" class="names">Your Name:</label>
                         <input id="fname" class="inp-name" type="search" value="" name="fname"
                             placeholder="Enter your name ...">
                     </div>
+                    <!-- Input for the second name -->
                     <div class="inputSname">
                         <label for="sname" class="names">Your crush:</label>
                         <input id="sname" class="inp-name" type="search" value="" name="sname"
                             placeholder="Enter your crush name ...">
                     </div>
                 </section>
+                <!-- submit button -->
                 <input class="submit" type="submit" value="calculate love">
             </header>
         </form>
+        <!-- section to populate result panel -->
         <section id="resultPanel" class="hide">
         </section>
+        <!-- Preloader -->
         <div id="loader" class="hide">
             <img src="./img/preloading.gif" alt="">
         </div>

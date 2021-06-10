@@ -125,7 +125,7 @@ background-blend-mode: lighten , screen;
 display: flex;
 flex-direction: column;
 font-family: inherit;
-padding:calc(var(--gap-padd)*5) 0;
+padding:calc(var(--gap-padd)*3) 0;
 gap:calc(var(--gap-padd)*5);
 width: fit-content;
 
@@ -298,7 +298,7 @@ color:rgb(67, 68, 67);
     background-size: 200% auto;  
     padding: var(--gap-padd);
     width: fit-content;
-    
+
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
@@ -337,8 +337,11 @@ color:rgb(67, 68, 67);
 }
 
 @media screen and (min-width: 50em) {
-    .inp-collection{ flex-direction: row;}
-    .heart { max-width: 60%; }    
+    .inp-collection{ 
+        flex-direction: row;
+        padding:calc(var(--gap-padd)*4) 0;
+    }
+    .heart { max-width: 60%; } 
 }
 
 @media screen and (min-width: 70em) {
