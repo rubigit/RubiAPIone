@@ -72,7 +72,7 @@ background-blend-mode: lighten , screen;
 
 .container {
 
-    padding:1em;
+    padding:0 1em;
     margin: 0 auto;
    
 }
@@ -316,13 +316,18 @@ color:rgb(67, 68, 67);
         max-width: 60%;
     }
     
+    
 }
 
 @media screen and (min-width: 70em) {
 .container {
-    font-size: 1.4em;
-    max-width: 80%;
+    /* font-size: 1.25em; */
+    max-width: 60em;
 }
-
-
 }
+/* @media screen and (min-width: 80em) {
+    .container {
+        font-size: 1.4em;
+        max-width: 50%;
+    }
+    } */
